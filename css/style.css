@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Segoe UI";
+
+}
+main{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container{
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+#header{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+    background: transparent;
+    width: 308px;
+    
+
+}
+
+img{    
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+#header h1{
+    font-size: 24px;
+    font-weight:  300;
+    letter-spacing: -0.5px;
+    width: 308px;
+    height: 36px;
+    text-align: center;
+
+}
+
+#card{
+    border: 2px solid blue;
+    background-color:  #f4fcfc
+    
+
+
+
+
+}
